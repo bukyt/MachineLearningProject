@@ -252,7 +252,11 @@ class ImageApp:
         image_path = self.image_name.get()
         option = self.option.get()
         option2 = self.option2.get()
-        num_sentences = self.num_sentences.get()
+        try:
+            num_sentences = self.num_sentences.get()
+        except:
+            messagebox.showerror("Error", "Please submit an integer to 'Number of sentences' field")
+            return
         if not image_path:
             messagebox.showerror("Error", "Please load an image first.")
             return
@@ -262,7 +266,11 @@ class ImageApp:
         if option2 == "None":
             messagebox.showerror("Error", "Please select an embedding option.")
             return
-        extracted_text, summary = image_to_summary(image_path, num_sentences, option, option2)
+        try:
+            extracted_text, summary = image_to_summary(image_path, num_sentences, option, option2)
+        except:
+            messagebox.showerror("Error", "Please keep the summary length lower than the data length.")
+            return
         self.text_display.delete(1.0, tk.END)
         self.text_display.insert(tk.END, f"Extracted Information:\n{extracted_text}\n\nSummary:\n{summary}")
 

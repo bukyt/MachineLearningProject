@@ -1,12 +1,29 @@
-# Tehisintellekti Kursuse Projekt
+# Kodutöö 7 projekt: Pildifailist teksti tuvastamine ja sellest lühikokkuvõtte tegemine 
 
 Koostajad: Kennar Kahju, Mattias Kimst, Joonas Tiitson
+
+## Kirjeldus:
+Töö eesmärk oli luua programm mis saab sisendina ette pildifaili, millelt tuvastatakse tekst ning tekstist tehakse etteantud lausete arvuga kokkuvõte. Programm on mõeldud tuvastama ja töötlema eestikeelseid tekste.
+
+
+## Repositooriumi sisu
+- `Kodu7.ipynb`: <b> jupyter notebook pildituvastuse ja kokkuvõtte tegemise lahendustega </b>
+- `CLIMethods.py`: 
+- `GUI.py`: graafilise kasutajaliidese kood
+- `hoidla.txt`: 
+- `script.spec`: 
+- `setup.bat`: 
+- `setupabi.md`: 
+- `variables.config`:
+- `Kuva.png`: näidispilt testimiseks
+- `naidis.png`: näidispilt testimiseks
+- `placeholder.png`: näidispilt testimiseks
 
 ## Juhised GUI.py faili käivitamiseks
 
 ### Setupabi.md failis olevate juhiste järgimine
 
-Järgnevad juhised aitavad teil seadistada ja käivitada projekti `GUI.py` faili oma arvutis.
+Järgnevad juhised aitavad seadistada ja käivitada projekti `GUI.py` faili oma arvutis.
 
 ### Linux Kasutajad
 

@@ -8,13 +8,13 @@ Töö eesmärk oli luua programm mis saab sisendina ette pildifaili, millelt tuv
 
 ## Repositooriumi sisu
 - `Kodu7.ipynb`: <b> jupyter notebook pildituvastuse ja kokkuvõtte tegemise lahendustega </b>
-- `CLIMethods.py`: 
+- `CLIMethods.py`: CLI versioon rakendusest, praegusel hetkel iganenud.  
 - `GUI.py`: graafilise kasutajaliidese kood
-- `hoidla.txt`: 
+- `hoidla.txt`: Hoiab koodi, kuid kunagi ei käivitata, loodud debuggimise jooksul.  
 - `script.spec`: 
-- `setup.bat`: 
-- `setupabi.md`: 
-- `variables.config`:
+- `setup.bat`: .bat fail mis käivitab mõned käsud windows arvutites rakenduse käivitamiseks
+- `setupabi.md`: Abi fail mõne ettepanekuga kuidas rakendust käima saada kui ei kasuta valmis kompileeritud versiooni  
+- `variables.config`: config fail et muuta tesseract asukohta  
 - `Kuva.png`: näidispilt testimiseks
 - `naidis.png`: näidispilt testimiseks
 - `placeholder.png`: näidispilt testimiseks

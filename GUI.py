@@ -3,7 +3,6 @@ from tkinter import filedialog
 from tkinter import messagebox
 from tkinter import Scrollbar
 from PIL import Image, ImageTk
-import pytesseract
 import numpy as np
 from estnltk import Text
 from sklearn.cluster import KMeans
@@ -11,6 +10,7 @@ from transformers import AutoTokenizer, AutoModel
 from sklearn.metrics.pairwise import cosine_similarity
 import logging
 from sentence_transformers import SentenceTransformer
+from config import *
 
 
 def summarize_text_similarity(text, num_sentences):
@@ -187,8 +187,6 @@ class ImageApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Image Information Extractor")
-
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
         # Variables
         self.image_name = tk.StringVar()

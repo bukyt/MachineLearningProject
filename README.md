@@ -7,36 +7,32 @@ Töö eesmärk oli luua programm mis saab sisendina ette pildifaili, millelt tuv
 
 
 ## Repositooriumi sisu
-- `Kodu7.ipynb`: <b> jupyter notebook pildituvastuse ja kokkuvõtte tegemise lahendustega </b>
-- `CLIMethods.py`: CLI versioon rakendusest, praegusel hetkel iganenud.  
-- `GUI.py`: graafilise kasutajaliidese kood
-- `hoidla.txt`: Hoiab koodi, kuid kunagi ei käivitata, loodud debuggimise jooksul.  
-- `script.spec`: 
-- `setup.bat`: .bat fail mis käivitab mõned käsud windows arvutites rakenduse käivitamiseks
-- `setupabi.md`: Abi fail mõne ettepanekuga kuidas rakendust käima saada kui ei kasuta valmis kompileeritud versiooni  
-- `variables.config`: config fail et muuta tesseract asukohta  
-- `Kuva.png`: näidispilt testimiseks
-- `naidis.png`: näidispilt testimiseks
-- `placeholder.png`: näidispilt testimiseks
+- `Kodu7.ipynb`: <b> Jupyter notebook (Colabis käivitatav) pildituvastuse ja kokkuvõtte tegemise lahendustega </b>
+- `GUI.py`: Graafilise kasutajaliidese käitatav kood
+- `config.py`: Seadistuste fail et muuta tesseract asukohta  
+- `näidis_pildid`: Ette antud pildid programmi testimiseks
+- `setup`: Esmakordse käivitamise eeljuhised
 
-## Juhised GUI.py faili käivitamiseks
+## Lihtne käivitus ilma installimiseta (Windows)
 
-### Setupabi.md failis olevate juhiste järgimine
+Laadi alla [programm.zip](https://github.com/bukyt/MachineLearningProject/releases/), paki see lahti ning käivita `GUI.exe` fail. Veendu, et on lahti pakitud ka lisafailid kaustaga `_internal`.
 
-Järgnevad juhised aitavad seadistada ja käivitada projekti `GUI.py` faili oma arvutis.
+### 
 
-### Linux Kasutajad
+## Juhised `GUI.py` manuaalselt käivitamiseks
 
-Linuxi kasutajatel tuleb `setup.bat` käske manuaalselt käivitada. 
+### Esmakordne käivitamine
+
+Kõik vajalikud juhised leiad [setup](/setup/) kaustast.
 
 ### Tesseract
 
-Veenduge, et Tesseracti asukoht on `C:\Program Files\Tesseract-OCR\tesseract.exe`.
+Veenduge, et Tesseract-OCR on eelnevalt installitud.
 
-- Kui Tesseract asub mujal, siis peate muutma faili asukohta real 188 failis `GUI.py`.
+- Kui Tesseract asub mujal kui `config.py` nimetatud asukohas, siis peate muutma vastavalt enda installile.
 
 ### Nõuded
 
-- Tesseracti nõuab Python 3.11 kasutamist.
+- Tesseract nõuab Python 3.11 kasutamist.
 - Tesseracti käivitamiseks võivad olla vajalikud administraatori õigused, et vältida pildilt lugemisega seotud õiguste probleeme.
 

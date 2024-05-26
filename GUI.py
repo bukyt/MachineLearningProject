@@ -1,4 +1,3 @@
-import os
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
@@ -6,13 +5,12 @@ from tkinter import Scrollbar
 from PIL import Image, ImageTk
 import pytesseract
 import numpy as np
-import torch
 from estnltk import Text
 from sklearn.cluster import KMeans
 from transformers import AutoTokenizer, AutoModel
 from sklearn.metrics.pairwise import cosine_similarity
 import logging
-from sentence_transformers import SentenceTransformer, models, InputExample, losses
+from sentence_transformers import SentenceTransformer
 
 
 def summarize_text_similarity(text, num_sentences):

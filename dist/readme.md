@@ -6,5 +6,5 @@
 * (minul tekkis probleeme _internal/estnltk kaustaga mis oli tühi, peab ise ümber tõstma kui on probleeme)
 
 
-# Esialgne katse :
-https://drive.google.com/file/d/17rNN2cDiDGogl1pytQjJ3RXgstPWKvtc/view?usp=drive_link
+
+https://drive.google.com/file/d/1S80zIYZT5bqZFX-WLUog3Gy4QVy2yM__/view?usp=sharing

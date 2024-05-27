@@ -13,9 +13,13 @@ Töö eesmärk oli luua programm mis saab sisendina ette pildifaili, millelt tuv
 - `näidis_pildid`: Ette antud pildid programmi testimiseks
 - `setup`: Esmakordse käivitamise eeljuhised
 
+## Notebooki käivitamine Colab keskkonnas
+
+Ava Kodu7.ipynb Githubis -> ![image](https://github.com/bukyt/MachineLearningProject/assets/68914924/220001d1-e8b0-49af-94bc-a9ea5bcfe42a)
+
 ## Lihtne käivitus ilma installimiseta (Windows)
 
-Laadi alla [programm.zip](https://github.com/bukyt/MachineLearningProject/releases/), paki see lahti ning käivita `GUI.exe` fail. Veendu, et on lahti pakitud ka lisafailid kaustaga `_internal`.
+Laadi alla [program.zip](https://github.com/bukyt/MachineLearningProject/releases/), paki see lahti ning käivita `GUI.exe` fail. Veendu, et on lahti pakitud ka lisafailid kaustaga `_internal`.
 
 ### 
 

@@ -8,6 +8,7 @@ Töö eesmärk oli luua programm mis saab sisendina ette pildifaili, millelt tuv
 
 ## Repositooriumi sisu
 - `Kodu7.ipynb`: <b> Jupyter notebook (Colabis käivitatav) pildituvastuse ja kokkuvõtte tegemise lahendustega </b>
+- `Töökirjeldus.pdf`: <b> Pdf fail töö kirjeldusega, sisaldab ülesande kirjelduses nõutud punkte </b>
 - `GUI.py`: Graafilise kasutajaliidese käitatav kood
 - `config.py`: Seadistuste fail et muuta tesseract asukohta  
 - `näidis_pildid`: Ette antud pildid programmi testimiseks
